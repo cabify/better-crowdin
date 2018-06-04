@@ -1,0 +1,25 @@
+{
+  "sourceMap": "inline",
+  "plugins": [
+    "transform-decorators-legacy",
+    "lodash",
+    "transform-object-rest-spread",
+    "transform-function-bind",
+    "syntax-dynamic-import"
+  ],
+  "env": {
+    "test": {
+      "presets": ["es2017", "es2015", "react", "airbnb"],
+      "plugins": [
+        "external-helpers",
+        [
+          "transform-decorators-legacy",
+          "module-resolver"
+        ],
+        "transform-runtime",
+        "syntax-dynamic-import",
+        "babel-plugin-dynamic-import-node"
+      ]
+    }
+  }
+}

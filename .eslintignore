@@ -1,0 +1,10 @@
+/packages/**/node_modules
+/packages/**/dist/*
+/packages/**/coverage/*
+/packages/**/.storybook/webpack.config.js
+/packages/**/.storybook/addons.js
+/packages/**/.storybook/config.js
+coverage/*
+# dotfiles are ignored by default
+/node_modules
+.rpt2_cache

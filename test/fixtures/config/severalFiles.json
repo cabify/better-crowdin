@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "source": "src/test/file1.json",
+      "translation": "%original_path%/%locale%/%file_name%.%file_extension%"
+    },
+
+    {
+      "source": "src/test/file2.json",
+      "translation": "otherPath/%locale_with_underscore%/%original_file_name%"
+    }
+  ]
+}

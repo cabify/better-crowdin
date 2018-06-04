@@ -1,0 +1,8 @@
+{
+  "files": [
+    {
+      "source": "src/test/file1.json",
+      "translation": "%original_path%/%locale%/%file_name%.%file_extension%"
+    }
+  ]
+}

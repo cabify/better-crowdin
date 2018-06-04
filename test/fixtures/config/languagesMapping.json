@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "source": "src/test/file1.json",
+      "translation": "%original_path%/%two_letters_code%.%file_extension%",
+      "languages_mapping": {
+        "two_letters_code": {
+          "pt-PT": "pt",
+          "pt-BR": "pt-BR",
+          "es-ES": "es"
+        }
+      }
+    }
+  ]
+}

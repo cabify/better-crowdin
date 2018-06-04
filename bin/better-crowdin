@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+const yargs = require('yargs');
+const yaml = require('js-yaml');
+const camelcase = require('camelcase-keys');
+const fs = require('fs');
+
+// eslint-disable-next-line
+yargs
+  .usage('better-crowdin [command]')
+  .default('config', './crowdin.yml')
+  .default('skipValidation', [])
+  .default('baseBranches', ['master'])
+  .hide('skipValidation')
+  .hide('baseBranches')
+  .config('config', 'Crowdin configuration file path', (configPath) =>
+    camelcase(yaml.safeLoad(fs.readFileSync(configPath))),
+  )
+  .options({
+    d: {
+      alias: 'dry-run',
+      describe: 'Do not execute write operations on crowdin',
+    },
+    p: {
+      alias: 'porcelain',
+      describe:
+        'Print script-aware outputs (no colors, no human friendly info)',
+    },
+    b: {
+      alias: 'branch',
+      describe:
+        'Crowdin branch to use with command (defaults to current git branch)',
+      type: 'string',
+    },
+    'relative-path': {
+      describe: 'Make "base_path" property relative to config file path',
+      type: 'boolean',
+    },
+  })
+  .showHidden(false)
+  .commandDir('../lib/commands')
+  .recommendCommands()
+  .version()
+  .help('h').argv;
