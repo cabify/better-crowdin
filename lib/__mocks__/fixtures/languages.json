@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Spanish",
+    "crowdin_code": "es-ES",
+    "editor_code": "es",
+    "iso_639_1": "es",
+    "iso_639_3": "spa",
+    "locale": "es-ES",
+    "android_code": "es-rES",
+    "osx_code": "es.lproj",
+    "osx_locale": "es"
+  },
+  {
+    "name": "Portuguese",
+    "crowdin_code": "pt-PT",
+    "editor_code": "pt",
+    "iso_639_1": "pt",
+    "iso_639_3": "por",
+    "locale": "pt-PT",
+    "android_code": "pt-rPT",
+    "osx_code": "pt.lproj",
+    "osx_locale": "pt"
+  },
+  {
+    "name": "Portuguese, Brazilian",
+    "crowdin_code": "pt-BR",
+    "editor_code": "ptbr",
+    "iso_639_1": "pt",
+    "iso_639_3": "por",
+    "locale": "pt-BR",
+    "android_code": "pt-rBR",
+    "osx_code": "pt-BR.lproj",
+    "osx_locale": "pt_BR"
+  }
+]

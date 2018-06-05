@@ -1,0 +1,203 @@
+{
+  "es-ES": {
+    "files": [
+      {
+        "node_type": "directory",
+        "id": "166",
+        "name": "src",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "167",
+            "name": "test",
+            "files": [
+              {
+                "node_type": "file",
+                "id": "168",
+                "name": "file1.json",
+                "phrases": 10,
+                "translated": 10
+              },
+              {
+                "node_type": "file",
+                "id": "169",
+                "name": "file2.json",
+                "phrases": 5,
+                "translated": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node_type": "branch",
+        "id": "208",
+        "name": "branch1",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "166",
+            "name": "src",
+            "files": [
+              {
+                "node_type": "directory",
+                "id": "167",
+                "name": "test",
+                "files": [
+                  {
+                    "node_type": "file",
+                    "id": "168",
+                    "name": "file1.json",
+                    "phrases": 1,
+                    "translated": 1
+                  },
+                  {
+                    "node_type": "file",
+                    "id": "169",
+                    "name": "file2.json",
+                    "phrases": 0,
+                    "translated": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pt-PT": {
+    "files": [
+      {
+        "node_type": "directory",
+        "id": "166",
+        "name": "src",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "167",
+            "name": "test",
+            "files": [
+              {
+                "node_type": "file",
+                "id": "168",
+                "name": "file1.json",
+                "phrases": 10,
+                "translated": 10
+              },
+              {
+                "node_type": "file",
+                "id": "169",
+                "name": "file2.json",
+                "phrases": 5,
+                "translated": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node_type": "branch",
+        "id": "208",
+        "name": "branch1",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "166",
+            "name": "src",
+            "files": [
+              {
+                "node_type": "directory",
+                "id": "167",
+                "name": "test",
+                "files": [
+                  {
+                    "node_type": "file",
+                    "id": "168",
+                    "name": "file1.json",
+                    "phrases": 1,
+                    "translated": 0
+                  },
+                  {
+                    "node_type": "file",
+                    "id": "169",
+                    "name": "file2.json",
+                    "phrases": 0,
+                    "translated": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pt-BR": {
+    "files": [
+      {
+        "node_type": "directory",
+        "id": "166",
+        "name": "src",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "167",
+            "name": "test",
+            "files": [
+              {
+                "node_type": "file",
+                "id": "168",
+                "name": "file1.json",
+                "phrases": 10,
+                "translated": 10
+              },
+              {
+                "node_type": "file",
+                "id": "169",
+                "name": "file2.json",
+                "phrases": 5,
+                "translated": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "node_type": "branch",
+        "id": "208",
+        "name": "branch1",
+        "files": [
+          {
+            "node_type": "directory",
+            "id": "166",
+            "name": "src",
+            "files": [
+              {
+                "node_type": "directory",
+                "id": "167",
+                "name": "test",
+                "files": [
+                  {
+                    "node_type": "file",
+                    "id": "168",
+                    "name": "file1.json",
+                    "phrases": 1,
+                    "translated": 1
+                  },
+                  {
+                    "node_type": "file",
+                    "id": "169",
+                    "name": "file2.json",
+                    "phrases": 0,
+                    "translated": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

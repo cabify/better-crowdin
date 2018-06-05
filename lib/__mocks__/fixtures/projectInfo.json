@@ -1,0 +1,105 @@
+{
+  "languages": [
+    {
+      "name": "Spanish",
+      "code": "es-ES"
+    },
+    {
+      "name": "Portuguese",
+      "code": "pt-PT"
+    },
+    {
+      "name": "Portuguese, Brazilian",
+      "code": "pt-BR"
+    }
+  ],
+  "files": [
+    {
+      "node_type": "directory",
+      "id": "166",
+      "name": "src",
+      "files": [
+        {
+          "node_type": "directory",
+          "id": "167",
+          "name": "test",
+          "files": [
+            {
+              "node_type": "file",
+              "id": "168",
+              "name": "file1.json"
+            },
+            {
+              "node_type": "file",
+              "id": "169",
+              "name": "file2.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node_type": "branch",
+      "id": "208",
+      "name": "branch1",
+      "files": [
+        {
+          "node_type": "directory",
+          "id": "166",
+          "name": "src",
+          "files": [
+            {
+              "node_type": "directory",
+              "id": "167",
+              "name": "test",
+              "files": [
+                {
+                  "node_type": "file",
+                  "id": "168",
+                  "name": "file1.json"
+                },
+                {
+                  "node_type": "file",
+                  "id": "169",
+                  "name": "file2.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node_type": "branch",
+      "id": "208",
+      "name": "branch2",
+      "files": [
+        {
+          "node_type": "directory",
+          "id": "166",
+          "name": "src",
+          "files": [
+            {
+              "node_type": "directory",
+              "id": "167",
+              "name": "test",
+              "files": [
+                {
+                  "node_type": "file",
+                  "id": "168",
+                  "name": "file1.json"
+                },
+                {
+                  "node_type": "file",
+                  "id": "169",
+                  "name": "file2.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "details": {}
+}

@@ -4,7 +4,6 @@ module.exports = {
   rootDir: path.resolve(__dirname),
   testEnvironment: 'jsdom',
   moduleFileExtensions: ['js', 'json'],
-  moduleDirectories: ['node_modules', 'lib'],
   globals: {},
   testMatch: ['**/test/**/*?(*.)(Test).(js|ts|tsx)'],
   transform: {
