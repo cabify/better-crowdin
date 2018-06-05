@@ -9,6 +9,6 @@ module.exports = {
   transform: {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
   },
-  coverageReporters: ['text', 'html'],
+  coverageReporters: ['text', 'html', 'lcov'],
   coveragePathIgnorePatterns: ['/node_modules/', '/test/'],
 };
