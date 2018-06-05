@@ -17,6 +17,7 @@
     "test": "cross-env BABEL_ENV=test jest",
     "test:watch": "cross-env BABEL_ENV=test jest --watch",
     "test:coverage": "cross-env BABEL_ENV=test jest --coverage",
+    "test:ci": "cross-env BABEL_ENV=test jest --coverage --forceExit --maxWorkers=4 --no-watchman cat ./coverage/lcov.info | coveralls",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -38,6 +39,7 @@
     "babel-preset-es2015-native-modules": "^6.9.4",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.23.0",
+    "coveralls": "^3.0.1",
     "cross-env": "^5.1.4",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.1.0",
