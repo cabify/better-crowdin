@@ -1,7 +1,7 @@
 # better-crowdin
 
 [![Build Status](https://travis-ci.org/cabify/better-crowdin.svg?branch=master)](https://travis-ci.org/cabify/better-crowdin)
-[![Coverage Status](https://coveralls.io/repos/github/cabify/better-crowdin/badge.svg?branch=master)](https://coveralls.io/github/cabify/better-crowdin?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/cabify/better-crowdin/badge.svg?branch=master)](https://coveralls.io/github/cabify/better-crowdin?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/cabify/better-crowdin.svg)](https://greenkeeper.io/)
 
 Crowdin CLI on steroids.
 
