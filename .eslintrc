@@ -44,7 +44,8 @@
         "devDependencies": [
           "jest/setup.js",
           "**/testSetup.js",
-          "rollupConfigBase.js"
+          "rollupConfigBase.js",
+          "test/**/*.js"
         ]
       }
     ]
