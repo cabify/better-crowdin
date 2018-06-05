@@ -1,4 +1,4 @@
-const api = require('../../lib/api.js');
+const api = require('../../lib/api');
 
 let mockRequestSpy;
 
