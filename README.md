@@ -216,3 +216,11 @@ npm run test
 ```sh
 npm run lint
 ```
+
+### Contributors
+
+- Main contributor [@jalopez](https://github.com/jalopez)
+
+#### Other contributors
+
+- [@cicloon](https://github.com/cicloon)
