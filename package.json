@@ -1,5 +1,5 @@
 {
-  "name": "@cabify-dev/better-crowdin",
+  "name": "better-crowdin",
   "version": "1.0.0",
   "description": "Crowdin CLI on steroids",
   "skipBuild": true,
