@@ -1,5 +1,7 @@
 # better-crowdin
 
+[![Build Status](https://travis-ci.org/cabify/better-crowdin.svg?branch=master)](https://travis-ci.org/cabify/better-crowdin)
+
 Crowdin CLI on steroids.
 
 This CLI is based on [Official CLI](https://support.crowdin.com/cli-tool/) but adding several features
