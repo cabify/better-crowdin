@@ -7,9 +7,15 @@ node_js:
 cache:
   yarn: true
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH="$HOME/.yarn/bin:$PATH"
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH="$HOME/.yarn/bin:$PATH"
+- yarn global add greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
 install:
-- $TRAVIS_BUILD_DIR/.travis.d/install.sh
+- "$TRAVIS_BUILD_DIR/.travis.d/install.sh"
 script:
-- $TRAVIS_BUILD_DIR/.travis.d/tests.sh
+- "$TRAVIS_BUILD_DIR/.travis.d/tests.sh"
+env:
+  global:
+    secure: 1KZEfm1L+ijHYJ26lyYFQGmcJ/3WhK9BKQirZpwMExUU6AoBECdt+8nJ3w4RIhhMxqMad/tpzdskXbbDtrGJE5G6JGTGNE6o8ssYUDo86gLro8JZCw/b+60LLAfwDzM9WGxABXg5YakBj43/W1hlFRroM0uCXi1HiNHp6DqstIW6Lx0GFo7vNG9wxezOapAFaqIx5FkR3P2KChvR/pjIbPrlAuQoYzp15iFiYsBt0LUaE3dQHZxnBMd7rZTdlx9lq4L/z68YnGka15e4+lbB9pNlLyf5rsMIPTcj30hrFpWW4z8FSuFHbAA2uMQJtKTIZEmTQqppnOr40z78F/eU6kHxszAWldoSZQhM/o74agvfe2ZeSXHfgujK7z7j8/bDkV4O61e3+lCKqYGw/p7Fofz4wb09RGxo5COpeaQfceD1OiQo8d6wZViuaDO4IpZPQ2+9lt9ZivYpCJcN1evJWoJxACdWXJVMlZRoFQ6vsQ/PxwO+AknWYQD0FPIZbEZF5UGg2zf/G3m8ixu+1GN3KuW06/vcEKG5Z/im08qg6oFrTUPTGV5M0nuNlre+ghOfAq1Y6EquhU9WT5WJOPejeJv620Qz2nVpvmAjVxlGRcGYFYcPHnJkTcuC/T6WdcHR6R6xUMsaGXbBjwlo0g24cQ2rjp/5s1hDMza7DzmmHFY=
