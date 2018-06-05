@@ -1,4 +1,4 @@
-# @cabify-dev/better-crowdin
+# better-crowdin
 
 Crowdin CLI on steroids.
 
@@ -80,18 +80,18 @@ with gitflow (feature branches).
 
 Briefly, the steps to add new keys to crowdin when working with feature branches are:
 
-* When developing a feature branch
-  * `better-crowdin upload` everytime you want to add new keys (will take branch name automatically)
-  * `better-crowdin download` to download new keys already translated (will take branch name automatically)
-* When merging with base branch that has new keys
-  * `better-crowdin sync` to upload new base branch keys to your branch & download latest translations
-* To check if the feature is fully translated (for instance in a pull request check script)
-  * `better-crowdin status`
-* After merging with base branch
-  * `better-crowdin upload sources` To upload merged base files
-  * `better-crowdin upload translations` To upload merged translations
-  * `better-crowdin delbranch -b <branch_name>` To remove finished branch
-  * `better-crowdin status` To check everything is correct
+- When developing a feature branch
+  - `better-crowdin upload` everytime you want to add new keys (will take branch name automatically)
+  - `better-crowdin download` to download new keys already translated (will take branch name automatically)
+- When merging with base branch that has new keys
+  - `better-crowdin sync` to upload new base branch keys to your branch & download latest translations
+- To check if the feature is fully translated (for instance in a pull request check script)
+  - `better-crowdin status`
+- After merging with base branch
+  - `better-crowdin upload sources` To upload merged base files
+  - `better-crowdin upload translations` To upload merged translations
+  - `better-crowdin delbranch -b <branch_name>` To remove finished branch
+  - `better-crowdin status` To check everything is correct
 
 ### Show me the code
 
@@ -192,4 +192,24 @@ $ better-crowdin status
 - pt-PT
    - src/locales/source.json. 11 / 11
 Everything fully translated. Enjoy!
+```
+
+## Contributing
+
+1.  Fork it
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Added some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create new Pull Request
+
+### Running tests
+
+```sh
+npm run test
+```
+
+### Running the linter
+
+```sh
+npm run lint
 ```
