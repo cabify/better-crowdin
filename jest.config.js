@@ -1,15 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  rootDir: path.resolve('./'),
+  rootDir: path.resolve(__dirname),
   testEnvironment: 'jsdom',
-  moduleNameMapper: {
-    '^config$': '<rootDir>/src/config/test.js',
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-      '<rootDir>/jest/globalMocks/fileMock.js',
-    '^.*\\.scss$': '<rootDir>/jest/globalMocks/styleMock.js',
-  },
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
+  moduleFileExtensions: ['js', 'json'],
   globals: {},
   testMatch: ['**/test/**/*?(*.)(Test).(js|ts|tsx)'],
   transform: {
