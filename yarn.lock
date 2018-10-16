@@ -1099,12 +1099,12 @@ callsites@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
 
-camelcase-keys@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-4.2.0.tgz#a2aa5fb1af688758259c32c141426d78923b9b77"
+camelcase-keys@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-5.0.0.tgz#67250d1d2e6617ed0568463e56fa337845706695"
   dependencies:
-    camelcase "^4.1.0"
-    map-obj "^2.0.0"
+    camelcase "^5.0.0"
+    map-obj "^3.0.0"
     quick-lru "^1.0.0"
 
 camelcase@^1.0.2:
@@ -1114,6 +1114,10 @@ camelcase@^1.0.2:
 camelcase@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
+
+camelcase@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
 
 caniuse-lite@^1.0.30000844:
   version "1.0.30000847"
@@ -3109,9 +3113,9 @@ map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
 
-map-obj@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-2.0.0.tgz#a65cd29087a92598b8791257a523e021222ac1f9"
+map-obj@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-3.0.0.tgz#4221cc62360f88c0735f9e7c0813bd889657f490"
 
 map-visit@^1.0.0:
   version "1.0.0"
