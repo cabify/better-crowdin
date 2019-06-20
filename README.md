@@ -197,6 +197,15 @@ $ better-crowdin status
 Everything fully translated. Enjoy!
 ```
 
+### Removing keys
+
+If you remove some key/keys in your _source.json_ file, only run the next commands:
+
+```
+> better-crowdin upload
+> better-crowdin download
+```
+
 ## Contributing
 
 1.  Fork it
