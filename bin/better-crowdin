@@ -11,8 +11,6 @@ yargs
   .default('config', './crowdin.yml')
   .default('skipValidation', [])
   .default('baseBranches', ['master'])
-  .hide('skipValidation')
-  .hide('baseBranches')
   .config('config', 'Crowdin configuration file path', (configPath) =>
     camelcase(yaml.safeLoad(fs.readFileSync(configPath))),
   )
@@ -37,7 +35,6 @@ yargs
       type: 'boolean',
     },
   })
-  .showHidden(false)
   .commandDir('../lib/commands')
   .recommendCommands()
   .version()

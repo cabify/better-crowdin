@@ -1,6 +1,6 @@
 {
   "name": "better-crowdin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crowdin CLI on steroids",
   "skipBuild": true,
   "license": "UNLICENSED",
