@@ -1,3 +1,7 @@
+## DEPRECATION NOTICE
+This project is no longer maintained, see https://github.com/cabify/better-crowdin/issues/39 for more info
+
+
 # better-crowdin
 
 [![Build Status](https://travis-ci.org/cabify/better-crowdin.svg?branch=master)](https://travis-ci.org/cabify/better-crowdin)
